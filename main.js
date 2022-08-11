@@ -3,8 +3,6 @@
 const section =  document.querySelector("section");
 let firstClick = false;
 
-
-
 // cards (an array of objects with the images and names of those images)
 const getCards = [
     { picture: "./images/black panther.jpeg", 
@@ -65,15 +63,12 @@ function shuffle () {
         return cardData;
 }
 
-    
-// console.log(temp);
 // Getting cards in html
 const cardsAppear = () => {
     const cardData = shuffle();
     
     cardData.forEach((item) => {
-        // console.log(item);
-
+        
         // storing the card data, creating new elements 
         const card = document.createElement("div");
         const cardFace = document.createElement("img");
@@ -108,20 +103,15 @@ const whichCard = (e) => {
     //e.target the is the element that we clicked on.
     const cardsClicked = e.target
     
-
     // add a class to cardsClicked
     cardsClicked.classList.add("checked");
     const checkedCards = document.querySelectorAll('.checked');
-    
-    
     
     // this is checking if the cards match.
     if (checkedCards.length === 2) {
         if (checkedCards[0].getAttribute('name') === 
             checkedCards[1].getAttribute('name')) {
                 
-            
-
             // matched cards will stay faced up after being matched and can no longer be clicked on. 
             checkedCards.forEach(card => {
                 card.classList.remove('checked');
