@@ -4,7 +4,7 @@
 Is a memory match game to test you mental capabilities. A player will select 2 cards. If they match, Great! The cards will stay faceup and you can continue untill all are faceup. If they do not match, well then you will have to try again. 
 
 # Screen Shots:
-
+![Screen Shot 2022-08-11 at 4 02 36 PM Small](https://user-images.githubusercontent.com/109244177/184242017-198ff249-98b7-4164-bd24-82dab3b39742.jpeg)
 
 
 # Technologies used: 
