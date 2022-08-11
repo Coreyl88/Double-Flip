@@ -132,13 +132,13 @@ const whichCard = (e) => {
             
             // below will remove it from being checked, the timeout is set to return the cards back facedown after a delay. 
             checkedCards.forEach(card => {
+
                 card.classList.remove("checked");
                 setTimeout(() => card.classList.remove("cardFlipper"), 800);
-            });
-            
-        }
-    }
-};
+              });
+            }
+          }
+        };
 
 //Countdown Timer
 function time(){
