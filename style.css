@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Marvel', sans-serif;
+    font-size: 5.5em;
+    color: rgb(12, 11, 11);
+    margin-bottom: 20px;;
+}
+
+body {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    background: #f2efee; 
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-family: 'Marvel', sans-serif;
+    margin-top: 30px;
+    font-size: 3.5em;
+    color: rgb(0, 0, 0);
+
+}
+
+section { 
+    display: grid;
+    grid-template-columns: repeat(4, 9rem);
+    grid-template-rows: repeat(4,9rem);
+    grid-gap: 1rem;
+    perspective: 1000px;
+}
+
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s;
+    box-shadow: black 15px 15px 15px;
+}
+
+.cardFace, .cardBack {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+}
+
+.cardBack {
+    background-image: url(images/marvellogo.jpeg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    backFace-visibility: hidden;
+}
+
+.cardFlipper {
+    transform: rotateY(-180deg);
+    
+}
+
+#time {
+    margin-top: 20px;
+}
