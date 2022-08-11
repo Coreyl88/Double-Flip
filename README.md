@@ -6,6 +6,7 @@ Is a memory match game to test you mental capabilities. A player will select 2 c
 # Screen Shots:
 ![Screen Shot 2022-08-11 at 4 02 36 PM Small](https://user-images.githubusercontent.com/109244177/184242017-198ff249-98b7-4164-bd24-82dab3b39742.jpeg)
 
+![Screen Shot 2022-08-11 at 4 03 11 PM Small](https://user-images.githubusercontent.com/109244177/184242083-4bd5bccf-0924-4a72-9c78-ceb96aaef616.jpeg)
 
 # Technologies used: 
 HTMl- Did not use as much, but as a basic layout for my page
