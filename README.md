@@ -15,9 +15,10 @@ JavaScript- Is used for the functionality of the game. From every card to card f
 
 # Getting Started: 
 
+https://github.com/Coreyl88/Double-Flip.git
 
 # Next Steps:
-
+Would like to have a nice start game/End Game overlay with a restart button.
 
 
 # Acknowledgements:
