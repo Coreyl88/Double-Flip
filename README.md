@@ -30,4 +30,6 @@ https://css-tricks.com/
 
 https://developer.mozilla.org/en-US/
 
+https://stackoverflow.com/
+
 And to anyone who makes tutorials/guides for all Html, CSS, Js
